@@ -20,6 +20,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: SAMPLE-NODE-PROJECT-MASTER
-          publish-profile: ${{ }}
           package: .
 
